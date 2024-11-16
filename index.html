@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calendar Generator</h1>
+        <div class="controls">
+            <label for="month">Select Month:</label>
+            <input type="number" id="month" min="1" max="12" placeholder="Month (1-12)" required>
+            <br>
+            <br>
+            <br>
+            <label for="year">Select Year:</label>
+            <input type="number" id="year" placeholder="Year" required>
+            <br>
+            <br>
+            <br>
+            <button id="generateBtn">Generate Calendar</button>
+        </div>
+
+        <div id="calendar"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
